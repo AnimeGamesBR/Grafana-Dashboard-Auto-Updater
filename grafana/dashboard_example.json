@@ -1,0 +1,61 @@
+{
+  "dashboard": {
+    "uid": "prod-server-metrics",
+    "title": "Production Server Metrics",
+    "tags": ["production", "cloudwatch", "ec2"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "CPU Utilization",
+        "type": "graph",
+        "targets": [
+          {
+            "datasource": "CloudWatch",
+            "namespace": "AWS/EC2",
+            "metricName": "CPUUtilization",
+            "dimensions": {
+              "InstanceId": "i-0123456789abcdef0"
+            },
+            "statistic": "Average",
+            "period": "300"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Memory Usage",
+        "type": "graph",
+        "targets": [
+          {
+            "datasource": "CloudWatch",
+            "namespace": "CWAgent",
+            "metricName": "mem_used_percent",
+            "dimensions": {
+              "InstanceId": "i-0123456789abcdef0"
+            },
+            "statistic": "Average",
+            "period": "300"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Network In/Out",
+        "type": "graph",
+        "targets": [
+          {
+            "datasource": "CloudWatch",
+            "namespace": "AWS/EC2",
+            "metricName": "NetworkIn",
+            "dimensions": {
+              "InstanceId": "i-0123456789abcdef0"
+            },
+            "statistic": "Sum",
+            "period": "300"
+          }
+        ]
+      }
+    ]
+  }
+}
