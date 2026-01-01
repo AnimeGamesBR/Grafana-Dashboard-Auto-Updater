@@ -1,0 +1,33 @@
+{
+  "uid": "alert-high-cpu",
+  "title": "Production Alert - High CPU Usage (Critical)",
+  "condition": "A",
+  "data": [
+    {
+      "refId": "A",
+      "queryType": "timeSeriesQuery",
+      "model": {
+        "datasource": "CloudWatch",
+        "namespace": "AWS/EC2",
+        "metricName": "CPUUtilization",
+        "dimensions": {
+          "InstanceId": "i-0123456789abcdef0"
+        },
+        "statistic": "Average",
+        "period": 300
+      }
+    }
+  ],
+  "noDataState": "NoData",
+  "execErrState": "Error",
+  "for": "5m",
+  "annotations": {
+    "description": "CPU usage is above 90% for 5 minutes on instance i-0123456789abcdef0"
+  },
+  "labels": {
+    "severity": "critical",
+    "environment": "production"
+  },
+  "folderUID": "alerts",
+  "ruleGroup": "EC2 Instance Alerts"
+}
