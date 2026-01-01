@@ -1,0 +1,20 @@
+{
+  "Name": "grafana-instance-id-change-detector",
+  "Description": "Triggers Lambda function when new EC2 instances are launched to update Grafana dashboards",
+  "State": "ENABLED",
+  "EventPattern": {
+    "source": ["aws.ec2"],
+    "detail-type": ["AWS API Call via CloudTrail"],
+    "detail": {
+      "eventSource": ["ec2.amazonaws.com"],
+      "eventName": ["RunInstances"]
+    }
+  },
+  "Targets": [
+    {
+      "Id": "GrafanaUpdaterLambda",
+      "Arn": "arn:aws:lambda:us-west-2:123456789012:function:update-grafana-instance-id",
+      "Description": "Lambda function that triggers Jenkins jobs for Grafana updates"
+    }
+  ]
+}
